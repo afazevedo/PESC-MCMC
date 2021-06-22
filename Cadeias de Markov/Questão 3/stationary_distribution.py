@@ -1,5 +1,6 @@
 """ 
 3. Determine numericamente a distribuição estacionária para cada valor de $p$, e indique o estado de menor probabilidade.
+Obs: Retiro a última linha da matriz pois a matriz é linearmente dependente. 
 """
 
 import numpy as np
@@ -17,7 +18,7 @@ def stationary_distribution(p):
         [0, 0, 0, 0, 0, 0, 0, p, -1, 0],
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
 
-    b = [0,0,0,0,0,0,0,0,0,1]
+    b = [0,0,0,0,0,0,0,0,0,1] #A\pi = b
     
     stationary = np.linalg.solve(A, b) # Resolvendo o sistema linear
     
