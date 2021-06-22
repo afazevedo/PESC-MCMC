@@ -40,4 +40,18 @@ Aproximando com g~Normal(np, sqrt(np(1-p)))
 
 </details>
 
+</details>
+
+<details><summary>Variação Total de Grafos</summary>
+
+  ![image info](./graphics/questao_2.png)
+
+</details>
+
+<details><summary>Estimativa do Tempo de Retorno</summary>
+
+  ![image info](./graphics/questao_4.png)
+
+</details>
+
 
